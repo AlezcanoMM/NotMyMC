@@ -1,5 +1,6 @@
 package Persistence;
 
 public interface ExcahngeRateLoader {
-    double getExchangeRate();
+    
+    public ExchangeRate getExchangeRate(Currency from, Currency to);
 }
