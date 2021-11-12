@@ -1,6 +1,6 @@
 package Persistence;
 
-public interface ExcahngeRateLoader {
+public interface ExchangeRateLoader {
     
     public ExchangeRate getExchangeRate(Currency from, Currency to);
 }
